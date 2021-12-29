@@ -168,7 +168,7 @@ figure figcaption {
         -o-transform: translateX(-300px);
         transform: translateX(-300px);
         padding-top: 4em;
-        background-color: #7583ff;
+        background-color: #06ff59;
         height: auto;
     }
     .resume-content img {
@@ -709,7 +709,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .hire {
     padding: 2em;
-    background: #7583ff;
+    background: #06ff59;
 }
 
 .hire h2 {
@@ -870,7 +870,7 @@ body.offcanvas .colorlib-nav-toggle {
     position: absolute;
     display: block;
     width: 4px;
-    background: #7583ff;
+    background: #06ff59;
     top: 20px;
     bottom: 20px;
     margin-left: 29px;
@@ -935,7 +935,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
     position: relative;
-    background: #7583ff;
+    background: #06ff59;
     padding: 1.5em;
     margin-left: 60px;
     -webkit-background-clip: padding-box;
@@ -2272,7 +2272,7 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     margin: 30px auto 20px;
-    background: #7583ff;
+    background: #06ff59;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -2333,7 +2333,7 @@ ul {
 
 .submenu {
     display: none;
-    background: #7583ff;
+    background: #06ff59;
     font-size: 14px;
 }
 
@@ -2353,7 +2353,7 @@ ul {
 }
 
 .submenu a:hover {
-    background: yellow;
+    background: rgb(255, 153, 0);
     border-radius: 20px;
     color: #FFF;
 }
