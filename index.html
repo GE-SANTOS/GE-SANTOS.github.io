@@ -1,15 +1,461 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá Mundo!</title>
+    <title>Geovane Santos-Meu Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pagina de Portfolio de Geovane Santos" />
+    <meta name="keywords" content="portfolio,website,personal website,github,projects,computer science and engineering" />
+    <meta name="author" content="Geovane Santos" />
+    <!--Social Media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-----Google adsense code---->
+    <script data-ad-client="ca-pub-2147632065762164" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
-    <h1>Olá Mundo!</h1>
+    <canvas id="canvas"></canvas>
+    <div id="colorlib-page">
+        <div class="container-wrap">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+            <!----Side bar--->
+            <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+                <div class="text-center">
+                    <div class="author-img" style="background-image: url(images/IMG_-wl1xai.jpg);"></div>
+                    <h1 id="colorlib-logo"><a href="https://GE-SANTOS.github.io">Geovane Santos</a></h1>
+                </div>
+                <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
+                    <div id="navbar" class="collapse">
+                        <ul>
+                            <li><a href="#" data-nav-section="about">Sobre</a></li>
+                            <li><a href="#" data-nav-section="skills">Skills</a></li>
+                            <li><a href="#" data-nav-section="projects">Projetos</a></li>
+                            <li><a href="#" data-nav-section="education">Formação</a></li>
+                            <li><a href="#" data-nav-section="certification">Certificados</a></li>
+                            <li><a href="#" data-nav-section="contact">Contato</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </aside>
+            <!----- main page--------->
+            <div id="colorlib-main">
+                <!---------------About me---------------------->
+                <section class="colorlib-about" data-section="about">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="col-md-12">
+                                        <div class="about-desc">
+                                            <h1><strong>Geovane <span style="color: #00d848">Santos</span></strong></h1>
+                                            <hr>
+                                            <p>Olá, bem vindo ao meu portfólio.<br>Sou graduado em Análise e Desenvolvimento de Sistemas e continuo meus estudos através de cursos online e bootcamps, para me preparar para a tão sonhada vaga de Programador
+                                                Jr. Atualmente participo do projeto NuLab, promovido pela Nubank, Alura e CubosAcademy, onde estou sendo preparado para atuar como Programador Backend com NodeJS.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!---------------Skills---------------->
+                <section class="colorlib-skills" data-section="skills">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="about-desc">
+                                    <h1>Skills</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Linguagens: C++, JavaScript, Java</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-1" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Tech Stack: Spring Boot, NodeJS</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-3" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Tech Stack: MySQL</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-5" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Design: HTML, Bootstrap, CSS</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-4" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Controle de Versão: Git, GitHub</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-7" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3 style="font-weight: 500;">Documentação: Word, Excel</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-6" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--------------Projects---------------->
+                <section class="colorlib-skills" data-section="projects">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="about-desc">
+                                    <h1>Projetos</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-left: 10px">
+                            <ul id="accordion" class="accordion animate-box" data-animate-effect="fadeInRight">
+                                <li>
+                                    <div class="link">
+                                        <p style="margin-bottom: 0px">PongBolim</p>
+                                        <i class="fa fa-chevron-down"></i>
+                                    </div>
+                                    <ul class="submenu mb-0" style="padding-left: 10px">
+                                        <li>
+                                            <div>
+                                                <a href="https://github.com/vinaysomawat/Travographer-Portal" style="text-decoration:none;">
+                                                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                                                        <div id="divMain">
+                                                            <div id='left-div' class="resume-content">
+                                                                <img style='float:left;' width='300px;' class='img-fluid' src='images/tg-portal.png'>
+                                                            </div>
+                                                            <div id='right-div' class='resume-content'>
+                                                                <div class="subheading mb-0">
+                                                                    <p>It is an implementation to Setup Amazon S3 in a Django Project, how to use S3 to handle user uploaded files.</p>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                </section>
+
+                <!---------------Education----------->
+                <section class="colorlib-education" data-section="education">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="about-desc">
+                                    <h1>Formação</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="timeline-centered">
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-1">
+                                                <i class="fa fa-code"></i>
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2>Graduação tecnológica em Análise e Desenvolvimento de Sistemas</h2>
+                                                <p>Julho / 2017 - Dezembro / 2019</p>
+                                                <p><strong>Universidade Estácio de Sá</strong></p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-2">
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!---------------Certificados---------->
+                <section class="colorlib-certification" data-section="certification">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="about-desc">
+                                        <h1>Certificados</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/225DEEF5">
+                                    <p style="color:green">Trabalhando com Branches no GitHub</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/D2320E5D">
+                                    <p style="color:green">Lógica de Programação Essencial</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/64C47994">
+                                    <p style="color:green">Introdução ao Git e ao GitHub</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/C03BB86F">
+                                    <p style="color:green">Introdução a orientação a objetos com Java</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/DC862FAD">
+                                    <p style="color:green">Dominando IDEs Java</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/AAC00CF9">
+                                    <p style="color:green">Desenvolvimento básico em Java</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/07F34272">
+                                    <p style="color:green">Desenvolvimento avançado em Java</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://www.treinaweb.com.br/certificado/W6CTG35PNY1M">
+                                    <p style="color:green">TreinaWeb Multi-stack #2</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/A9EE4E44">
+                                    <p style="color:green">Trabalhando com Collections Java</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/BDBA9FE0">
+                                    <p style="color:green">Trabalhando com Banco de Dados utilizando JDBC e JPA</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/0453ABBD">
+                                    <p style="color:green">Introdução ao framework Spring Boot</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://certificates.digitalinnovation.one/6AAA8BDC">
+                                    <p style="color:green">Estrutura de Dados em Java</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://cursos.alura.com.br/user/geovane-n-s/degree-business-agility-one-261637/certificate">
+                                    <p style="color:green">BUSINESS AGILITY - ONE</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://cursos.alura.com.br/user/geovane-n-s/degree-empreendedorismo-one-261734/certificate">
+                                    <p style="color:green">EMPREENDEDORISMO - ONE</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://cursos.alura.com.br/certificate/geovane-n-s/javascript-listas-lacos">
+                                    <p style="color:green">JOGOS CLÁSSICOS PARTE 2: LAÇOS E LISTAS COM JAVASCRIPT</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://cursos.alura.com.br/certificate/geovane-n-s/pong-javascript">
+                                    <p style="color:green">JOGOS CLÁSSICOS PARTE 1: INICIANDO NO JAVASCRIPT COM PONG</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="progress-wrap">
+                                            <strong>
+                                 <a href="https://cursos.alura.com.br/certificate/geovane-n-s/git-github-controle-de-versao">
+                                    <p style="color:green">GIT E GITHUB: CONTROLE E COMPARTILHE SEU CÓDIGO</p>
+                                 </a>
+                              </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </section>
+                <!---------------Contact---------->
+                <section class="colorlib-contact" data-section="contact">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="about-desc">
+                                        <h1>Contato</h1>
+                                    </div>
+                                    <p>Entre em contato, seja para assuntos academicos, para um trabalho, ou simplismente bater um papo.<br>Email: <strong><a href = "mailto: geovane_n.s@outlook.com">geovane_n.s@outlook.com</a></strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <strong>
+                                 <a href="https://www.linkedin.com/in/geovanenascimento/">
+                                    <p style="color:rgb(0, 4, 255)">Linkedin</p>
+                                 </a>
+                              </strong>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <strong>
+                                 <a href="https://github.com/GE-SANTOS">
+                                    <p style="color:black">GitHub</p>
+                                 </a>
+                              </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!---------------Footer------------->
+                <section class="colorlib-footer" data-section="footer" style="padding-bottom: 3em">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="hire">
+                                        <p style="text-align: center"><strong>"Independente da derrota, nunca desista do seus sonhos.<br>O caminho vai ser árduo, mais seus esforços dará belos frutos"</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                </div>
+                </div>
+                </div>
+                <!-- jQuery -->
+                <script src="js/jquery.min.js"></script>
+                <!-- jQuery Easing -->
+                <script src="js/jquery.easing.1.3.js"></script>
+                <!-- Bootstrap -->
+                <script src="js/bootstrap.min.js"></script>
+                <!-- Waypoints -->
+                <script src="js/jquery.waypoints.min.js"></script>
+                <!-- Flexslider -->
+                <script src="js/jquery.flexslider-min.js"></script>
+                <!-- Counters -->
+                <script src="js/jquery.countTo.js"></script>
+                <!-- MAIN JS -->
+                <script src="js/main.js"></script>
+                <!--canvas js--->
+                <script src="js/canvas.js"></script>
 </body>
 
 </html>
